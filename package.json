@@ -12,7 +12,6 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "node-adodb": "^5.0.3",
     "nodemon": "^3.1.0",
     "pg": "^8.11.5"
   }
