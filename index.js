@@ -5,10 +5,7 @@ const PORT = 3455;
 const cors = require('cors');
 
 const pool = new Pool({
-  user: 'default',
-  host: '"ep-frosty-tooth-a42iji2i-pooler.us-east-1.aws.neon.tech"',
-  database: 'verceldb',
-  password: 'Qi9NZSFXf5pz',
+    connectionString: "postgres://default:Qi9NZSFXf5pz@ep-frosty-tooth-a42iji2i-pooler.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require"
 });
 
 app.use(express.json());
