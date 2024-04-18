@@ -5,10 +5,10 @@ const PORT = 3455;
 const cors = require('cors');
 
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'access_work',
-  password: 'anny',
+  user: 'default',
+  host: '"ep-frosty-tooth-a42iji2i-pooler.us-east-1.aws.neon.tech"',
+  database: 'verceldb',
+  password: 'Qi9NZSFXf5pz',
 });
 
 app.use(express.json());
